@@ -1,0 +1,8 @@
+INSUMOS - app web instalable (PWA)
+
+Contenido: index.html, sw.js, manifest.webmanifest, carpetas css/, js/, vendor/ e icons/.
+Publicala en cualquier hosting con HTTPS (Netlify, GitHub Pages, Cloudflare Pages). No funciona abriendo index.html desde el celular como archivo.
+
+Primer uso: Ajustes -> ingresar el PIN del script -> Guardar y sincronizar.
+Al publicar cambios, subir el numero de CACHE en sw.js (insumos-v1 -> insumos-v2) para que los telefonos actualicen.
+El PIN nunca va en el codigo: se escribe en el telefono y queda guardado solo ahi.
